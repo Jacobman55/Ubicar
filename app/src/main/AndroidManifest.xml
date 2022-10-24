@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Ubicar">
         <activity
+            android:name=".NuevUsur"
+            android:exported="true" />
+        <activity
             android:name=".VerUbic"
             android:exported="true" />
         <activity

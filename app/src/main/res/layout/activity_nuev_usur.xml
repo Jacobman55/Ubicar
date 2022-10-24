@@ -4,69 +4,72 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AddUbi">
+    tools:context=".NuevUsur">
 
     <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="409dp"
+        android:layout_height="729dp"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="1dp">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical" >
 
             <TextView
-                android:id="@+id/textView3"
+                android:id="@+id/textView4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Registro del Vehículo"
+                android:text="Registro"
                 android:textSize="34sp" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName"
+                android:id="@+id/editTextTextPersonName4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="Vehículo"
+                android:hint="Usuario"
                 android:inputType="textPersonName"
                 android:textSize="24sp" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName2"
+                android:id="@+id/editTextTextPersonName5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="Matrícula"
+                android:hint="Contraseña"
                 android:inputType="textPersonName"
-                android:textSize="24sp" />
+                android:textSize="24sp"
+                />
 
             <EditText
-                android:id="@+id/editTextTextPersonName3"
+                android:id="@+id/editTextTextPersonName6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="Referencia"
+                android:hint="Confirmar contraseña"
                 android:inputType="textPersonName"
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/button8"
+                android:id="@+id/button5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="right"
                 android:onClick="onClickGuardar"
-                android:text="Guardar" />
+                android:text="Registrarse"
+                android:layout_gravity="right"
+                />
 
             <Button
-                android:id="@+id/button9"
+                android:id="@+id/button6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="left"
                 android:onClick="onClickVolv"
-                android:text="Atras" />
+                android:text="Button"
+                android:layout_gravity="left"
+                />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

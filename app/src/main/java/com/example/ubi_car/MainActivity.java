@@ -19,4 +19,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, PantElec.class);
         startActivity(intent);
     }
+
+    public void onClickNuev (View view){
+        Intent intent = new Intent(this, NuevUsur.class);
+        startActivity(intent);
+    }
 }
