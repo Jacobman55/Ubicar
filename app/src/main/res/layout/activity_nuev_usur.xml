@@ -41,8 +41,7 @@
                 android:ems="10"
                 android:hint="Contraseña"
                 android:inputType="textPersonName"
-                android:textSize="24sp"
-                />
+                android:textSize="24sp" />
 
             <EditText
                 android:id="@+id/editTextTextPersonName6"
@@ -57,19 +56,17 @@
                 android:id="@+id/button5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:onClick="onClickGuardar"
-                android:text="Registrarse"
                 android:layout_gravity="right"
-                />
+                android:onClick="onClickGuardar"
+                android:text="Registrarse" />
 
             <Button
                 android:id="@+id/button6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:onClick="onClickVolv"
-                android:text="Button"
                 android:layout_gravity="left"
-                />
+                android:onClick="onClickVolv"
+                android:text="Button" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
