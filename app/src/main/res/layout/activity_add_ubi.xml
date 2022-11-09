@@ -52,6 +52,15 @@
                 android:inputType="textPersonName"
                 android:textSize="24sp" />
 
+            <EditText
+                android:id="@+id/editTextTextPersonName9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:hint="Dia"
+                android:textSize="24sp"
+                android:inputType="textPersonName" />
+
             <Button
                 android:id="@+id/button8"
                 android:layout_width="wrap_content"
@@ -67,6 +76,7 @@
                 android:layout_gravity="left"
                 android:onClick="onClickVolv"
                 android:text="Atras" />
+
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
