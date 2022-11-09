@@ -26,7 +26,7 @@
                 android:textSize="34sp" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName"
+                android:id="@+id/editTextCoche"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -35,7 +35,7 @@
                 android:textSize="24sp" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName2"
+                android:id="@+id/editTextTextMatricula"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -44,7 +44,7 @@
                 android:textSize="24sp" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName3"
+                android:id="@+id/editTextTextReferencia"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -53,7 +53,7 @@
                 android:textSize="24sp" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName9"
+                android:id="@+id/editTextTextDia"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:ems="10"
@@ -66,7 +66,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="right"
-                android:onClick="onClickGuardar"
+                android:onClick="onClickGuardarFinal"
                 android:text="Guardar" />
 
             <Button
