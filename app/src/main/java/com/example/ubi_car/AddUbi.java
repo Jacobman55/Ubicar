@@ -55,11 +55,12 @@ public class AddUbi extends AppCompatActivity {
         toast.show();
     }
 
+    //Enviando lo datos
     public void onClickGuardarFinal (View view) throws UnsupportedEncodingException{
         coche=edit1.getText().toString();
         referencia=edit2.getText().toString();
         matricula=edit3.getText().toString();
-        dia=edit4.getText().toString();//?
+        dia=edit4.getText().toString();
         Mirequest post = new Mirequest(Request.Method.POST,"https://63564ad8a2d1844a9771151f.mockapi.io/api/uc/Coche",new Response.Listener<String>(){
             @Override
             public void onResponse(String response){
