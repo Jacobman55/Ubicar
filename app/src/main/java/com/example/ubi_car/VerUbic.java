@@ -1,4 +1,4 @@
-package com.example.ubi_car.Recycler;
+package com.example.ubi_car;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -15,8 +15,6 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonArrayRequest;
 import com.android.volley.toolbox.Volley;
-import com.example.ubi_car.Dto.UbiDto;
-import com.example.ubi_car.R;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -49,6 +47,7 @@ public class VerUbic extends AppCompatActivity {
                             try{
                                 JSONObject ubi = response.getJSONObject(i);
                                 UbiDto data = new UbiDto(ubi);
+                                System.out.print(data);
                                 alltheData.add(data);
                                 System.out.println(alltheData.get(i));
                             }catch (JSONException e){

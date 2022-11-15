@@ -12,19 +12,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Ubicar">
         <activity
-            android:name=".Recycler.ViewHolder"
+            android:name=".ViewHolder"
             android:exported="true" />
         <activity
-            android:name=".Recycler.RecyclerViewAdapter"
+            android:name=".RecyclerViewAdapter"
             android:exported="true" />
         <activity
-            android:name=".Recycler.UbiDetailActivity"
+            android:name=".UbiDetailActivity"
             android:exported="true" />
         <activity
             android:name=".NuevUsur"
             android:exported="true" />
         <activity
-            android:name=".Recycler.VerUbic"
+            android:name=".VerUbic"
             android:exported="true" />
         <activity
             android:name=".AddUbi"

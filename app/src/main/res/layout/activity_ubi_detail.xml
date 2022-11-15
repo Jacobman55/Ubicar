@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Recycler.UbiDetailActivity">
+    tools:context=".UbiDetailActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -35,7 +35,7 @@
                     android:id="@+id/TextCoche"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Vehiculo     |"
+                    android:text="Vehiculo     |Dia:"
                     android:textSize="25dp"
                     />
 
@@ -87,7 +87,7 @@
                 android:id="@+id/TextReferencia"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Referencia apracamiento"
+                android:text="Referencia aparcamiento"
                 android:layout_marginTop="10dp"
                 android:textSize="25dp"/>
 

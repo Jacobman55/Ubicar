@@ -1,4 +1,4 @@
-package com.example.ubi_car.request;
+package com.example.ubi_car;
 
 import androidx.annotation.Nullable;
 
@@ -30,8 +30,8 @@ public class Mirequest extends StringRequest {
 
     @Override
     public byte[] getBody() throws AuthFailureError{
-        String chichaPeticion=String.format("coche=%s$referencia=%s$matricula=%s$dia",coche,referencia,matricula,dia);
-        byte[] b = chichaPeticion.getBytes();
-        return b;
+        String chichaPeticion=String.format("coche=%s&referencia=%s&matricula=%s&dia=%s&",coche,referencia,matricula,dia);
+       byte[] b = chichaPeticion.getBytes();
+       return b;
     }
 }

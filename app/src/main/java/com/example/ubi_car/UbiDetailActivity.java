@@ -1,4 +1,4 @@
-package com.example.ubi_car.Recycler;
+package com.example.ubi_car;
 
 import androidx.appcompat.app.AppCompatActivity;
 

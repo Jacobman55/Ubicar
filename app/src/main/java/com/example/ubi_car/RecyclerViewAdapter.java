@@ -1,21 +1,18 @@
-package com.example.ubi_car.Recycler;
+package com.example.ubi_car;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.app.Activity;
 import android.content.Context;
-import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.ubi_car.Dto.UbiDto;
-import com.example.ubi_car.R;
-
 import java.util.List;
 
-public class RecyclerViewAdapter extends AppCompatActivity {
+public class RecyclerViewAdapter extends RecyclerView.Adapter<ViewHolder> {
 
     private Context context;
     private List<UbiDto> alltheData;
@@ -31,7 +28,7 @@ public class RecyclerViewAdapter extends AppCompatActivity {
         return new ViewHolder(view);
     }
 
-    public void onBondViewHolder (ViewHolder holder, int position){
+    public void onBindViewHolder (ViewHolder holder, int position){
         UbiDto dataInPositionToBeRendered= alltheData.get(position);
         holder.bindData(dataInPositionToBeRendered,activity);
     }
