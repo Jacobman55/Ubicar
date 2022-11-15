@@ -2,7 +2,6 @@ package com.example.ubi_car;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.DownloadManager;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -14,12 +13,8 @@ import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
-import com.android.volley.toolbox.JsonObjectRequest;
-import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
-
-import java.io.UnsupportedEncodingException;
-import java.net.URLEncoder;
+import com.example.ubi_car.request.Mirequest;
 
 import java.io.UnsupportedEncodingException;
 

@@ -1,4 +1,4 @@
-package com.example.ubi_car;
+package com.example.ubi_car.request;
 
 import androidx.annotation.Nullable;
 

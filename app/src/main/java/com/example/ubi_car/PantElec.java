@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.ubi_car.Recycler.VerUbic;
+
 public class PantElec extends AppCompatActivity {
 
     @Override
