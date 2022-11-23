@@ -34,7 +34,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="30dp"
                 android:onClick="onClickNuv"
-                android:text="Button" />
+                android:text="Añadir" />
 
             <TextView
                 android:id="@+id/textView2"
@@ -52,7 +52,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="30dp"
                 android:onClick="onClickVer"
-                android:text="Button" />
+                android:text="Ver" />
 
         </LinearLayout>
     </ScrollView>
