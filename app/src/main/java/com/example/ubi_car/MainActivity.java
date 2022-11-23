@@ -21,8 +21,4 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void onClickNuev (View view){
-        Intent intent = new Intent(this, NuevUsur.class);
-        startActivity(intent);
-    }
 }
