@@ -26,6 +26,4 @@ public class UbiDto {
 
     public String getDia(){return dia;}
 
-    public String getid(){return id;}
-
 }
